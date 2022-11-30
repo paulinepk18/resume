@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  color: #0f141e;
+  background: #a8ada9;
+}
+
+.card {
+  background-color: #f0f5ff;
+  color: rgb(10, 11, 20);
+}
+
+.work {
+  background-color: #f8f5e4;
+  color: rgb(37, 28, 10);
+}
+.info {
+  background-color: rgb(220, 236, 220);
+  color: rgb(18, 37, 18);
+}
+
+.ya {
+  color: rgb(20, 41, 44);
+}
+img {
+  border-radius: 10px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  margin-top: 15px;
+  padding: 0;
+}
+.vv {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.container {
+  margin: auto;
+  max-width: 800px;
+}
+ol {
+  padding-left: 35px;
+}
+h1,
+h2 {
+  padding-bottom: 15px;
+}
+.btn {
+  margin-left: 10px;
+  padding: 5px;
+  background-color: #678669;
+  border: 0;
+  border-radius: 8px;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #7d867e;
+}
+.sait {
+  text-decoration: none;
+  color: #363636;
+}
+.sait:hover {
+  color: #703e3e;
+  font-weight: bold;
+}
+
+table,
+tbody {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  text-align: center;
+}
+
+td:nth-child(odd) {
+  background: #f3ebb9;
+}
+tr,
+td,
+th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.info h2 {
+  text-align: center;
+}
+
+
+
+.form-group input,
+.form-group textarea {
+  margin-bottom: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  padding: 10px;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  outline: none;
+  font-family: inherit;
+}
+.form-row .form-group:first-child {
+  margin-right: 20px;
+}
+.form-row {
+  display: flex;
+}
+.form-group {
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+.start-row {
+  display: flex;
+}
+.ya h2 {
+  padding-top: 10px;
+}
+@media (max-width: 650px) {
+  .start-row {
+    display: block;
+    text-align: center;
+  }
+  .form-row {
+    display: block;
+    margin-right: 0;
+   
+  }
+  .form-group {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  }
